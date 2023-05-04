@@ -16,9 +16,9 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 
  /* Style the links inside the navigation bar */
     nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
- /* Add a hover effect for the links */
-    nav a:hover {background-color: #FFFFFF; color: #F0BF40;} 
-/* Add a class for the active page */
-    nav a.active {background-color: #FFFFFF; color: #F0BF40;}
+ /* Change the link color to #F0BF40 on hover */
+li a:hover {background-color: #F0BF40;}
+.active {background-color: #F0BF40;}
 /* Divide the content into two columns */
     .columns {column-count: 2; column-gap: 20px; /* Add some space between the columns */}
+ 
