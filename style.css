@@ -1,11 +1,13 @@
 body{background-color:white;background-image:url("test_thumbnail.jpg")}
 img{border:5px solid white;margin-left:600px; margin-right:600px}
+.header {background-color: #FF69B4;text-align: center;padding: 20px;}
+.footer {background-color: #FF69B4;text-align: center;padding: 10px;}
 h1{color:#DE2EBF;font-family:bodoni; background-color: white; border:5px solid white;margin-left:650px; margin-right:600px;}
 h2{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 h3{color:black;font-family:gill sans; background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 p{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 /* Three columns side by side */
-.column {float:left;width:25%;padding:15px;}
+.column {float:left;width:33.33%;padding:15px;}
   .column {width:100%;}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
