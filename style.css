@@ -17,10 +17,8 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 
 /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover;
 
-/* Needed to position the navbar */ position: center;}
-
-/* Position the navbar container inside the header */
-.container {position: absolute; margin: 20px; width: auto;}
+ /* Style the links inside the navigation bar */
+    nav a {float: left; text-align: center; padding: 14px 16px; text-decoration: none;}
 
 /* Change the link color to #F0BF40 on hover */
 li a:hover {background-color: #F0BF40;}
