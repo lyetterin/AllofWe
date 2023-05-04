@@ -6,9 +6,6 @@ h1{color:#FFFFFF;font-family:beteniora;font-size:30px}
 h2{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 h3{color:black;font-family:gill sans; background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 p{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
-/* Three columns side by side */
-.column {float:left;width:33.33%;padding:15px;}
-  .column {width:100%;}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
 li a {display: block;color: black;text-align: center;padding: 14px 16px;text-decoration: none;}
@@ -23,16 +20,7 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 /* Change the link color to #F0BF40 on hover */
 li a:hover {background-color: #F0BF40;}
 .active {background-color: #F0BF40;}
-
-@font-face {font-family: 'betenoira-webfontkit'; src: url('BeteNoirNF.ttf'); font-weight: normal; font-style: normal;}
-
-/* Create three equal columns that float next to each other */
-.column {float: left;width: 33.33%;}
-
-/* Clear floats after the columns */
-.row:after {content: ""; display: table; clear: both;}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-  .column {width: 100%;}
+@font-face {
+    font-family: BeteNoirNF;
+    src: url('path/to/BeteNoirNF.ttf');
 }
