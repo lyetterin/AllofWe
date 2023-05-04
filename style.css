@@ -15,7 +15,7 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover;
 
  /* Style the links inside the navigation bar */
-    nav a {float: left; text-align: center; padding: 14px 16px; text-decoration: none;}
+    nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
  /* Add a hover effect for the links */
     nav a:hover {background-color: #FFFFFF; color: #F0BF40;} 
 /* Add a class for the active page */
