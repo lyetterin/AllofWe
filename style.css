@@ -15,7 +15,8 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 .bg-img {/* The image used */background-image: url("test_thumbnail.jpg"); min-height: 380px;
 /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover;
 /* Needed to position the navbar */ position: relative;}
-
+/* Centered section inside the top navigation */
+.topnav-centered a {float: none;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 /* Position the navbar container inside the image */
 .container {position: absolute; margin: 20px; width: auto;}
 /* Change the link color to #F0BF40 on hover */
