@@ -20,5 +20,5 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
     nav a:hover {background-color: #FFFFFF; color: #F0BF40;} 
 /* Add a class for the active page */
     nav a.active {background-color: #FFFFFF; color: #F0BF40;}
-
-@font-face {font-family: BeteNoirNF; src: url('path/to/BeteNoirNF.ttf');}
+/* Divide the content into two columns */
+    .columns {column-count: 2; column-gap: 20px; /* Add some space between the columns */}
