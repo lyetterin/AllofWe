@@ -19,7 +19,7 @@ li a {display: block;color: black;text-align: center;padding: 14px 16px;text-dec
 
 /* Needed to position the navbar */ position: center;}
 
-/* Position the navbar container inside the image */
+/* Position the navbar container inside the header */
 .container {position: absolute; margin: 20px; width: auto;}
 
 /* Change the link color to #F0BF40 on hover */
