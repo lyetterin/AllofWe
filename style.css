@@ -15,6 +15,8 @@ li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-al
 /* Change the link color to #04D9FF on hover */
 li a:hover {background-color: #04D9FF;}
 .active {background-color: #04D9FF;}
+img {float: left;}
+
 /* Style the links inside the navigation bar */
     nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
     
