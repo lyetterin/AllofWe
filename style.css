@@ -8,20 +8,15 @@ h3{color:black;font-family:gill sans; background-color: white; border:5px solid 
 p{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
+li a {display: block;color: black;text-align: center;padding: 14px 16px;text-decoration: none;}
+/* Change the link color to #F0BF40 on hover */
+li a:hover {background-color: #F0BF40;}
+.active {background-color: #F0BF40;}
 
 /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover;
 
 /* Style the links inside the navigation bar */
     nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
-/* Change the link color to #F0BF40 on hover */
-li a:hover {background-color: #F0BF40;}
-.active {background-color: #F0BF40;}
-
- /* Divide the content into two columns */
-    .columns {column-count: 2; column-gap: 20px; /* Add some space between the columns */}
- 
-/* Divide the list into two columns */
-    .list {column-count: 2; column-gap: 20px; /* Add some space between the columns */}
     
 /* Remove the default list styles */
     ul {list-style: none; margin: 0; padding: 0;}
