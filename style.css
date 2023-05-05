@@ -5,7 +5,7 @@ img{border:5px solid white;margin-left:600px; margin-right:600px}
 h1{color:#FFFFFF;font-family:beteniora;font-size:30px}
 h2{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 h3{color:black;font-family:gill sans; background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
-p{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
+p{color:black;font-family:gill sans;background-color: white}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
 li a {display: block;color: black;text-align: center;padding: 14px 16px;text-decoration: none;}
