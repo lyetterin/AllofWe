@@ -25,7 +25,7 @@ li a:hover {background-color: #04D9FF;}
     li {margin-bottom: 10px:}
 
 /* Four columns side by side */
-.column {float: left; width: 15%; margin-bottom: 16px; padding: 0 8px;}
+.column {float: left; width: 25%; margin-bottom: 16px; padding: 0 8px;}
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
