@@ -2,7 +2,8 @@ body{background-color:white;}
 img{border:5px solid white;margin-left:600px; margin-right:600px}
 .header {background-color: #FF69B4;text-align: center;padding: 20px;}
 .footer {background-color: #FF69B4;text-align: center;padding: 10px;}
-h1{color:#FFFFFF;font-family:beteniora;font-size:30px}
+@font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
+h1{color:#FFFFFF;font-family:BeteNoirNF;font-size:30px}
 h2{color:black;font-family:gill sans;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 h3{color:black;font-family:gill sans; background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 p{color:black;font-family:gill sans;background-color: white}
