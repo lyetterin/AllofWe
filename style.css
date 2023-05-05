@@ -5,12 +5,12 @@ img{border:5px solid white;margin-left:600px; margin-right:600px}
 @font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
 @font-face {font-family: 'THEBOLDFONT'; src: url(THEBOLDFONT.ttf)}
 h1{color:#000000;font-family:BeteNoirNF;font-size:100px}
-h2{color:black;font-family:THEBOLDFONT;font-size:24px;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
+h2{color:black;font-family:THEBOLDFONT;font-size:36px;background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 h3{color:black;font-family:gill sans; background-color: white; border:5px solid white;margin-left:600px; margin-right:600px}
 p{color:black;font-family:gill sans;background-color: white}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
-li a {display: block;color: black;font-family:THEBOLDFONT;font-size:36px;text-align: center;padding: 14px 16px;text-decoration: none;}
+li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
 /* Change the link color to #04D9FF on hover */
 li a:hover {background-color: #04D9FF;}
 .active {background-color: #04D9FF;}
