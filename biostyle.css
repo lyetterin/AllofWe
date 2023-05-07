@@ -1,0 +1,51 @@
+body{background-color:white;}
+img{border:5px solid white;}
+<style> body {background-image: url("all_we.jpg"); background-repeat: no-repeat;} </style>
+.header {background-color: #FFBF00;text-align: center;padding: 20px;}
+.footer {background-color: #FFBF00;text-align: center;padding: 10px;}
+@font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
+@font-face {font-family: 'THEBOLDFONT'; src: url(THEBOLDFONT.ttf)}
+@font-face {font-family: 'Pragmatica-ExtraLight'; src: url(Pragmatica-ExtraLight.ttf)}
+h1{color:#000000;font-family:BeteNoirNF;font-size:100px}
+h2{color:black;font-family:THEBOLDFONT;font-size:36px;background-color: white; border:5px solid white;}
+h3{color:black;font-family:THEBOLDFONT;font-size:18px;}
+p{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;}
+ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
+li {float: left;}
+li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
+/* Change the link color to #04D9FF on hover */
+li a:hover {background-color: #04D9FF;}
+.active {background-color: #04D9FF;}
+img {float: left;}
+mark {background-color: #04D9FF; color: black;}
+/* Style the links inside the navigation bar */
+    nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
+    
+/* Remove the default list styles */
+    ul {list-style: none; margin: 0; padding: 0;}
+    
+ /* Add some margin to the list items */
+    li {margin-bottom: 10px:}
+
+/* Four columns side by side */
+.column {float: left; width: 25%; margin-bottom: 16px; padding: 0 8px;}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {width: 100%; display: block;}
+}
+
+/* Add some shadows to create a card effect */
+.card {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+
+/* Some left and right padding inside the container */
+.container {padding: 0 16px;}
+
+/* Clear floats */
+.container::after, .row::after {content: ""; clear: both; display: table;}
+
+.title {color: #0B045;}
+
+.button {border: none; outline: 0; display: inline-block; padding: 8px; color: white; background-color: #000; text-align: center; cursor: pointer; width: 100%;}
+
+.button:hover {background-color: #77DD77;}
