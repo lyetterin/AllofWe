@@ -1,4 +1,4 @@
-body {background-image: url("all_we.jpg"); background-repeat: no-repeat;}
+body {background-image: url("all_we.jpg"); background-repeat: repeat-x;}
 .header {background-color: #FFBF00;text-align: center;padding: 20px;}
 .footer {background-color: #FFBF00;text-align: center;padding: 10px;}
 @font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
