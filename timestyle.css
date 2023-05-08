@@ -18,7 +18,7 @@ li a:hover {background-color: #FFBF00;}
 }
 
 
-body {background-image: url("aow_background.jpg"); background-repeat: repeat-x; font-family: Helvetica, sans-serif;}
+body {background-image: url("aow_background.jpg"); background-repeat: repeat-y; font-family: Helvetica, sans-serif;}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -32,7 +32,7 @@ body {background-image: url("aow_background.jpg"); background-repeat: repeat-x; 
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #FFBF00;
   top: 0;
   bottom: 0;
   left: 50%;
