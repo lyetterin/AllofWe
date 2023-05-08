@@ -25,3 +25,11 @@ mark {background-color: #04D9FF; color: black;}
     
  /* Add some margin to the list items */
     li {margin-bottom: 10px:}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: white;
+  width: 50%;
+}
