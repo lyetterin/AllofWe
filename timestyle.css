@@ -18,17 +18,17 @@ li a:hover {background-color: #04D9FF;}
   box-sizing: border-box;
 }
 
-
+/* Set a background color */
 body {background-color: white; font-family: Helvetica, sans-serif;}
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline (the horizontal ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline (the horizontal ruler) */
 .timeline::after {
   content: '';
   position: absolute;
