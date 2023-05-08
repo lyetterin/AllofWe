@@ -83,7 +83,7 @@ body {background-color: #FF69B4; font-family: Helvetica, sans-serif;}
   right: 30px;
   border: #FF69B4;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: #FF69B4;
 }
 
 /* Add arrows to the right container (pointing left) */
