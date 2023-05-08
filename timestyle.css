@@ -10,16 +10,16 @@ p{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;}
 li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
-/* Change the link color to #FFBF00 on hover */
-li a:hover {background-color: #FFBF00;}
-.active {background-color: #FFBF00;}
+/* Change the link color to #04D9FF on hover */
+li a:hover {background-color: #04D9FF;}
+.active {background-color: #04D9FF;}
 
 * {
   box-sizing: border-box;
 }
 
 
-body {background-image: url("aow_background.jpg"); background-repeat: repeat-y; font-family: Helvetica, sans-serif;}
+body {background-color: white; font-family: Helvetica, sans-serif;}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
