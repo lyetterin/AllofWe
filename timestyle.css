@@ -33,7 +33,7 @@ body {background-color: white; font-family: Helvetica, sans-serif;}
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #FFBF00;
   top: 0;
   bottom: 0;
   left: 50%;
