@@ -81,7 +81,7 @@ body {background-color: #FF69B4; font-family: Helvetica, sans-serif;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: #FF69B4;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
