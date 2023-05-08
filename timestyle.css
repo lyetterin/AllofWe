@@ -81,9 +81,9 @@ body {background-color: #FF69B4; font-family: Helvetica, sans-serif;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: #FF69B4;
+  border: medium solid white;;
   border-width: 10px 0 10px 10px;
-  border-color: #FF69B4;
+  border-color: transparent transparent transparent white;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -130,9 +130,9 @@ body {background-color: #FF69B4; font-family: Helvetica, sans-serif;}
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: #FF69B4;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: #FF69B4;
   }
 
 /* Make sure all circles are at the same spot */
