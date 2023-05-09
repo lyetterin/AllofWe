@@ -50,3 +50,9 @@ mark {background-color: #04D9FF; color: black;}
 
 /* Add some padding inside the card container */
 .container { background-color: white; padding: 2px 16px;}
+
+/* Some left and right padding inside the container */
+.container {background-color:white; padding: 0 16px;}
+
+/* Clear floats */
+.container::after, .row::after {content: ""; clear: both; display: table;}
