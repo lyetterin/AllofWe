@@ -9,11 +9,11 @@ h1{color:#000000;font-family:BeteNoirNF;font-size:100px}
 h2{color:black;font-family:THEBOLDFONT;font-size:50px;text-align: center;}
 h3{color:black;font-family:THEBOLDFONT;font-size:18px;}
 p{color:black;font-family:Pragmatica-ExtraLight;font-size:20px; background-color: white; border:5px solid white;margin-left:550px; margin-right:550px;}
-ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF; text-align: center;}
-li {float: left;}
+ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
+li {float: center;}
 li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
-/* Change the link color to #04D9FF on hover */
-li a:hover {background-color: #04D9FF;}
+/* Change the link color to #FF69B4 on hover */
+li a:hover {background-color: #FF69B4;}
 .active {background-color: #04D9FF;}
 img {float: left;}
 mark {background-color: #04D9FF; color: black;}
