@@ -14,8 +14,8 @@ p{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
 li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
-/* Change the link color to #04D9FF on hover */
-li a:hover {background-color: #04D9FF;}
+/* Change the link color to #FF69B4 on hover */
+li a:hover {background-color: #FF69B4;}
 }
 .active {background-color: #04D9FF;
 }
