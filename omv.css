@@ -16,9 +16,7 @@ li {float: left;}
 li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
 /* Change the link color to #FF69B4 on hover */
 li a:hover {background-color: #FF69B4;}
-}
 .active {background-color: #04D9FF;
-}
 img {float: left;}
 mark {background-color: #04D9FF; color: black;}
 /* Style the links inside the navigation bar */
