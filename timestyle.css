@@ -19,7 +19,7 @@ li a:hover {background-color: #04D9FF;}
 }
 
 /* Set a background color */
-body {background-color: #FAB4D7; font-family: Helvetica, sans-serif;}
+body {background-color: white;}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -44,7 +44,7 @@ body {background-color: #FAB4D7; font-family: Helvetica, sans-serif;}
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
+  background-color: inheritt;
   width: 50%;
 }
 
@@ -81,9 +81,9 @@ body {background-color: #FAB4D7; font-family: Helvetica, sans-serif;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;;
+  border: #FAB4D7;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: #FAB4D7;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -95,9 +95,9 @@ body {background-color: #FAB4D7; font-family: Helvetica, sans-serif;}
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: #FAB4D7;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: #FAB4D7;
 }
 
 /* Fix the circle for containers on the right side */
@@ -108,7 +108,7 @@ body {background-color: #FAB4D7; font-family: Helvetica, sans-serif;}
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #FAB4D7;
   position: relative;
   border-radius: 6px;
 }
