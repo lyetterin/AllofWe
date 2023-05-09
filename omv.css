@@ -7,7 +7,7 @@ img{border:5px solid white;}
 @font-face {font-family: 'Pragmatica-ExtraLight'; src: url(Pragmatica-ExtraLight.ttf)}
 h1{color:#000000;font-family:BeteNoirNF;font-size:100px; text-align: center;}
 h2{color:black;font-family:THEBOLDFONT;font-size:36px; text-align: center; border:5px solid white;}
-h3{color:black;font-family:THEBOLDFONT;font-size:18px;}
+h3{color:black;font-family:THEBOLDFONT;font-size:18px; text-align: center;}
 h4{color;black;font-family:THEBOLDFONT;font-size:15px;}
 p{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;}
 }
@@ -22,7 +22,8 @@ li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-al
 /* Change the link color to #04D9FF on hover */
 li a:hover {background-color: #04D9FF;}
 }
-.active {background-color: #04D9FF;}
+.active {background-color: #04D9FF;
+}
 img {float: left;}
 mark {background-color: #04D9FF; color: black;}
 /* Style the links inside the navigation bar */
