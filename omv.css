@@ -29,6 +29,14 @@ mark {background-color: #04D9FF; color: black;}
  /* Add some margin to the list items */
     li {margin-bottom: 10px:}
 
+/* Two columns side by side */
+.column {float: left; width: 50%; margin-bottom: 16px; padding: 0 8px;}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {width: 100%; display: block;}
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
