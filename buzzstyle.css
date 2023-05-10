@@ -27,13 +27,18 @@ mark {background-color: #04D9FF; color: black;}
     li {margin-bottom: 10px:}
 
 /* Two columns side by side */
-.column {float: right;width: 48%; margin-bottom: 16px; padding: 0 8px;}
+.column {float: left;width: 48%; margin-bottom: 16px; padding: 0 8px;}
 
 /* Clear floats after the columns */
 .row1:after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* Place the container1 to the right */
+.right {
+  left: 50%;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
