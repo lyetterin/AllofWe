@@ -31,7 +31,6 @@ mark {background-color: #04D9FF; color: black;}
 
 /* Two columns side by side */
 .column {float: left;width: 40%;}
-.two {float:right;width:40%;}
 
 /* Clear floats after the columns */
 .row:after {
