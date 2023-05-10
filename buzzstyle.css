@@ -6,7 +6,7 @@ img{border:5px solid white;}
 @font-face {font-family: 'THEBOLDFONT'; src: url(THEBOLDFONT.ttf)}
 @font-face {font-family: 'Pragmatica-ExtraLight'; src: url(Pragmatica-ExtraLight.ttf)}
 h1{color:#000000;font-family:BeteNoirNF;font-size:100px}
-h2{color:black;font-family:THEBOLDFONT;font-size:36px;text-align: center;}
+h2{color:black;font-family:THEBOLDFONT;font-size:36px;text-align: center;padding-top:30px;}
 h3{color:black;font-family:THEBOLDFONT;font-size:18px;padding-top:30px;}
 p{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;padding-bottom:25px;}
 .two{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;text-align:center;padding-bottom:25px;}
