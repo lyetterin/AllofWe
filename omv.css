@@ -30,7 +30,7 @@ mark {background-color: #04D9FF; color: black;}
     li {margin-bottom: 10px:}
 
 /* Two columns side by side */
-.column {float: left;width: 40%;}
+.column {float: left;width: 40%; margin-bottom: 16px; padding 0 8px;}
 
 /* Clear floats after the columns */
 .row:after {
