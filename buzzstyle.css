@@ -26,11 +26,26 @@ mark {background-color: #04D9FF; color: black;}
  /* Add some margin to the list items */
     li {margin-bottom: 10px:}
 
+/* Two columns side by side */
+.column {float: right;width: 48%; margin-bottom: 16px; padding: 0 8px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {width: 100%; display: block;}
+}
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #FFBF00;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
@@ -58,11 +73,6 @@ input[type=submit] {
   border-radius: 5px;
   background-color: #FAB4D7;
   padding: 20px;
-}
-
-/* Place the container to the right */
-.right {
-  left: 50%;
 }
 
 /* Floating column for labels: 25% width */
