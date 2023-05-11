@@ -10,8 +10,8 @@ h2{color:black;font-family:THEBOLDFONT;font-size:36px;text-align: center;padding
 h3{color:black;font-family:THEBOLDFONT;font-size:24px;padding-top:30px;}
 h4{color:black;font-family:THEBOLDFONT;font-size:24px;padding-top:30px;}
 p{color:black;font-family:Pragmatica-ExtraLight;font-size:20px;}
-.two{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;text-align:center;padding-bottom:25px;}
-.three{color:black;font-family:Pragmatica-ExtraLight;font-size:15px;padding-bottom:25px;}
+.two{color:black;font-family:Pragmatica-ExtraLight;font-size:20px;text-align:center;padding-bottom:25px;}
+.three{color:black;font-family:Pragmatica-ExtraLight;font-size:20px;padding-bottom:25px;}
 .four{color:black;font-family:Pragmatica-ExtraLight;font-size:25px;text-align:center;padding-top:25px; padding-bottom:25px;}
 ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
 li {float: left;}
