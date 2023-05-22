@@ -19,6 +19,7 @@ li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-al
 /* Change the link color to #FF69B4 on hover */
 li a:hover {background-color: #FF69B4;}
 .active {background-color: #04D9FF;}
+a:link {color: #FF69B4;}
 img {float: left;}
 mark {background-color: #04D9FF; color: black;}
 /* Style the links inside the navigation bar */
