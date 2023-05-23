@@ -1,4 +1,4 @@
-body {background-image: url("aow_background.jpg"); background-repeat: no-repeat; background-attachment: scroll;}
+body {background-image: url("aow_background.jpg"); background-repeat: no-repeat; background-attachment: local;}
 .header {background-color: #FFBF00;text-align: center;padding: 20px;}
 .footer {background-color: #FFBF00;text-align: center;padding: 10px;}
 @font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
