@@ -1,3 +1,4 @@
+body {background-image: url("aow_background.jpg"); background-repeat: no-repeat; background-attachment: scroll;}
 .header {background-color: #FFBF00;text-align: center;padding: 20px;}
 .footer {background-color: #FFBF00;text-align: center;padding: 10px;}
 @font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
@@ -14,7 +15,8 @@ li {float: left;}
 /* Change the link color to #FF69B4 on hover */
 li a:hover {background-color: #FF69B4;}
 .active {background-color: #04D9FF;}
-
+a:link {color: #FF69B4;}
+a:visited {color: black;}
 * {
   box-sizing: border-box;
 }
