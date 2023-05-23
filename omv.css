@@ -21,6 +21,7 @@ li a:hover {background-color: #FF69B4;}
 .active {background-color: #04D9FF;}
 a:link {color: #FF69B4;}
 a:visited {color: #fcac14;}
+.two {color: black;}
 img {float: left;}
 mark {background-color: #04D9FF; color: black;}
 /* Style the links inside the navigation bar */
