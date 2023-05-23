@@ -21,9 +21,6 @@ a:visited {color: black;}
   box-sizing: border-box;
 }
 
-/* Set a background color */
-body {background-color: #FF69B4;}
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
