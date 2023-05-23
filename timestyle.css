@@ -20,7 +20,7 @@ li a:hover {background-color: #FF69B4;}
 }
 
 /* Set a background color */
-body {background-color: white;}
+body {background-color: #FF69B4;}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -109,7 +109,7 @@ body {background-color: white;}
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #FAB4D7;
+  background-color: white;
   position: relative;
   border-radius: 6px;
 }
