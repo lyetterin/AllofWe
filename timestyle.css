@@ -81,9 +81,9 @@ a:visited {color: black;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid black;
+  border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: black;
+  border-color: transparent transparent transparent white;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -95,9 +95,9 @@ a:visited {color: black;}
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid black;
+  border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: black;
+  border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -130,9 +130,9 @@ a:visited {color: black;}
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: black;
+    border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: black;
+    border-color: transparent white transparent transparent;
   }
 
 /* Make sure all circles are at the same spot */
