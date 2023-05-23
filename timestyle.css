@@ -81,7 +81,7 @@ a:visited {color: black;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: black;
+  border: medium solid black;
   border-width: 10px 0 10px 10px;
   border-color: black;
 }
@@ -95,7 +95,7 @@ a:visited {color: black;}
   width: 0;
   z-index: 1;
   left: 30px;
-  border: black;
+  border: medium solid black;
   border-width: 10px 10px 10px 0;
   border-color: black;
 }
