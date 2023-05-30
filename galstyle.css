@@ -1,5 +1,32 @@
 
-
+.header {background-color: #FFBF00;text-align: center;padding: 20px;}
+.footer {background-color: #FFBF00;text-align: center;padding: 10px;}
+@font-face {font-family: 'BeteNoirNF'; src: url(BeteNoirNF.ttf)}
+@font-face {font-family: 'THEBOLDFONT'; src: url(THEBOLDFONT.ttf)}
+@font-face {font-family: 'Pragmatica-ExtraLight'; src: url(Pragmatica-ExtraLight.ttf)}
+h1{color:#000000;font-family:BeteNoirNF;font-size:100px}
+h2{color:black;font-family:THEBOLDFONT;font-size:75px;text-align: center;}
+h3{color:black;font-family:THEBOLDFONT;font-size:36px;text-align: center;}
+h4{color:black;font-family:THEBOLDFONT;font-size:15px;}
+h5{color:black;font-family:THEBOLDFONT;font-size:50px;text-align: center;}
+p{color:black;font-family:Pragmatica-ExtraLight;font-size:25px;text-align: center;margin-left:150px;margin-right:150px;}
+li a {display: block;color: black;font-family:THEBOLDFONT;font-size:24px;text-align: center;padding: 14px 16px;text-decoration: none;}
+ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFFF;}
+li {float: left;}
+/* Change the link color to #FF69B4 on hover */
+li a:hover {background-color: #FF69B4;}
+.active {background-color: #04D9FF;}
+a:link {color: #FF69B4;}
+a:visited {color: black;}
+mark {background-color: #04D9FF; color: black;}
+/* Style the links inside the navigation bar */
+    nav a {float: center; text-align: left; padding: 14px 16px; text-decoration: none;}
+    
+/* Remove the default list styles */
+    ul {list-style: none; margin: 0; padding: 0;}
+    
+ /* Add some margin to the list items */
+    li {margin-bottom: 10px:}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
