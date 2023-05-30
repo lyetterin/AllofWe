@@ -61,6 +61,8 @@ mark {background-color: #04D9FF; color: black;}
 /* This container is needed to position the front and back side */
 .flip-box-inner {
   position: relative;
+  width: 100%;
+  height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
