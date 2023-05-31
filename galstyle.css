@@ -28,10 +28,10 @@ mark {background-color: #04D9FF; color: black;}
  /* Add some margin to the list items */
     li {margin-bottom: 10px:}
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Four image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -47,7 +47,7 @@ mark {background-color: #04D9FF; color: black;}
 }
 
 .column {
-  flex: 33.33%;
+  flex: 25%;
   padding: 5px;
 }
 
