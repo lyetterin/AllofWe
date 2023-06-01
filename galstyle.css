@@ -56,6 +56,17 @@ mark {background-color: #04D9FF; color: black;}
   .column {width: 100%; display: block;}
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%; /* Display columns as 100% width on small screens */
+  }
+}
+
 
 /* The flip box container */
 .flip-box {
